@@ -55,9 +55,6 @@ void hungary() {
 }
 
 int main(void) {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-#endif
     n = read(); m = read();
     FO(i, 1, m) {
         x = read(); y = read();

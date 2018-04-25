@@ -86,9 +86,6 @@ Seg query(int x, int l, int r, int ll, int rr) {
 }
 
 int main(void) {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-#endif
     n = read(); q = read();
     build(1, 1, n);
     while (q--) {
