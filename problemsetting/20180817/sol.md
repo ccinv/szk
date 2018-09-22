@@ -1,4 +1,4 @@
-标程：https://github.com/ccinv/szk/tree/master/setting/20180817
+标程：https://github.com/ccinv/szk/tree/master/setting/20180817/std
 
 `mid` by sfc;
 
