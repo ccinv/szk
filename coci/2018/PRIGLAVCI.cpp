@@ -99,7 +99,7 @@ using namespace Dinic;
 #define N 105
 int n, m, c, k, x1[N], x2[N], yy[N], y2[N], ans[N], l, r, cnt;
 vector<int> V[N];
-struct Seg { int a, b, c; } lb[N* N];
+struct Seg { int a, b, c; } lb[N * N];
 
 #define sqr(x) ((x)*(x))
 inline int dist(int x, int y) { return sqr(x1[x] - x2[y]) + sqr(yy[x] - y2[y]); }
@@ -131,4 +131,3 @@ int main(void) {
     FO(i, 1, n) printf("%d\n", ans[i]);
     return 0;
 }
-
