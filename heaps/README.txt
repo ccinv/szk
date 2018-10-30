@@ -1,1 +1,1 @@
-fafa.cpp is lost :P
+reminder: fafa.cpp doesn't fit run.sh
